@@ -77,6 +77,12 @@
              user-select: none;
              font-weight: bold;
         }
+        .aviso{
+            color: rgb(255, 0, 0);
+        }
+        .develop{
+            color: rgb(255, 0, 0);
+        }
     </style>
 
 </head>
@@ -86,10 +92,24 @@
 
 <div class="d-flex align-items-center h-100 ">
     <div id="quadro" class="col-md-10 offset-md-1 border border-secondary">
-        <div id="contagem"><span id="infoTR" class="fw-bold"></span>
-            segundos. Tempo restante: 
+
+
+        <div id="contagem">
+            <span id="infoTR" class="fw-bold"> 
+                
+        </span>
+            segundos. Tempo restante:
+
+
+
+         <span id="temporest"></span>
+
             
-            <span id="temporest"></span>
+        
+            
+
+           
+           
         </div>
         <div id="score">0</div>
         <div id="inv1" class="invasor"></div>
@@ -102,6 +122,17 @@
         <img src="imagens/splash.gif" id="splash">
 
         <img src="imagens/pontos100.png" id="pts100">
+
+         <!-- aviso se caso acertar o bonzinho -->
+         <div class="aviso text-center position-absolute bottom-0 w-100 pb-2">
+
+           <strong> se acertar o bonzinho perde 50 pontos!</strong> <br>
+           developer by thiago felipe
+
+            
+          
+         </div>
+         
     </div>
 </div>
 
